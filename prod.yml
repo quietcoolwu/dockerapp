@@ -4,7 +4,7 @@ services:
     extends:
       file: common.yml
       service: dockerapp
-    image: jleetutorial/dockerapp
+    image: quietcool/dockerapp
     environment:
       - constraint:node==master
     depends_on:
